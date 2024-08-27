@@ -9,7 +9,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #ffffff5b;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -64,6 +64,36 @@ nav .contact .btn-contact {
 }
 
 nav .contact .btn-contact:hover {
+    background-color: #fdcb7f;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section button {
+    background-color: #ffbd59;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section button:hover {
     background-color: #fdcb7f;
 }
 
